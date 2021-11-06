@@ -1,5 +1,6 @@
 body{
     background-color: #000000;
+    font-family: 'Zen Antique Soft', serif;
 }
 .container{
     display:grid;
@@ -33,11 +34,12 @@ header p{
     width: auto;
     border: 15px solid #000079;
     padding: 50px;
-    margin: 20px;}
+    margin: 20px;
 }
 nav{
     overflow: hidden;
-    background-color: #333;
+    background-color: #000000;
+    width:auto;
   }
   
 nav a {
@@ -56,9 +58,10 @@ nav a:hover {
 
 nav .current {
     background-color: #ff0000;
-    color: white;
+    color: #000000;
     font-style: italic;
     text-decoration:underline;
+    font-size: 20;
 }
 .skip a{
     background: white;
@@ -69,33 +72,9 @@ nav .current {
     z-index: 1;
   
     position: relative;
-    top: -40px;
+    top: -60px;
   }
-/* nav ul{
-    list-style-type: none;
-  }
-  
-nav li{
-    display: inline;
-    padding-right: 20px;
-  }
-  
-  nav{
-    background-color: #ddd;    
-    padding: 25px 0;
-    text-align: left;   
-  }
-.skip a{
-    background: white;
-    left: 0;
-    padding: 6px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 1;
-  
-    position: relative;
-    top: -40px;
-  } */
+
 header p{
     padding: 18px;
     color: #000000;
@@ -169,11 +148,192 @@ header p{
 #social-main{
     margin: auto;
 }
+
+.shawn h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 100px;
+    text-align: center;
+   
+}
+.shawn{
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.shawn p {
+    background-color: rgb(129, 0, 0);
+    width: auto;
+    border: 15px solid #000079;
+    padding: 50px;
+    margin: 20px;}
+#shawn-main{
+    margin: auto;
+}
+.oooh h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 100px;
+    text-align: center;
+   
+}
+.oooh{
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.oooh p {
+    background-color: rgb(129, 0, 0);
+    width: auto;
+    border: 15px solid #000079;
+    padding: 50px;
+    margin: 20px;}
+#oooh-main{
+    margin: auto;
+}
+.mabes h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 100px;
+    text-align: center;
+   
+}
+.mabes{
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.mabes p {
+    background-color: rgb(129, 0, 0);
+    width: auto;
+    border: 15px solid #000079;
+    padding: 50px;
+    margin: 20px;}
+#mabes-main{
+    margin: auto;
+}
 .contact{
     background-color: #000000;
 }
 form{
     color: #ffffff;
+    text-align: center;
+}
+
+footer{
+    background-color: #000079;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+.gallery{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 100px;
+    text-align: center;
+}
+#images img{
+    background-color: #ffffff;
+    width: auto;
+    border: 5px solid #000079;
+    padding: 5px;
+    margin: 20px;
+}
+.bud h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 100px;
+    text-align: center;
+   
+}
+.bud{
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.bud p {
+    background-color: rgb(129, 0, 0);
+    width: auto;
+    border: 15px solid #000079;
+    padding: 50px;
+    margin: 20px;}
+#bud-main{
+    margin: auto;
+}
+.jazz h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 100px;
+    text-align: center;
+   
+}
+.jazz{
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.jazz p {
+    background-color: rgb(129, 0, 0);
+    width: auto;
+    border: 15px solid #000079;
+    padding: 50px;
+    margin: 20px;}
+
+#jazz-main{
+    margin: auto;
+}
+.taste h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 100px;
+    text-align: center;
+   
+}
+.taste{
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.taste p {
+    background-color: rgb(129, 0, 0);
+    width: auto;
+    border: 15px solid #000079;
+    padding: 50px;
+    margin: 20px;}
+    
+#taste-main{
+    margin: auto;
+}
+.me h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 100px;
+    text-align: center;
+   
+}
+.me{
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.me p {
+    background-color: rgb(129, 0, 0);
+    width: auto;
+    border: 15px solid #000079;
+    padding: 50px;
+    margin: 20px;}
+    
+#my_image{
+    margin: auto;
 }
 /*.header-img{
     grid-column: 1/ -1;
